@@ -1,3 +1,54 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:68200bdd5d4f606c58fc05cc2d6ef7593205f92e5ec9c1e086e810364b2242a5
-size 1536
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FlameSphere
+  m_Shader: {fileID: 4800000, guid: 3a1fb61ceb7962c44868ba0f7b057712, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 6cf43d356b7ccc145ae7ef65215e0b83, type: 3}
+        m_Scale: {x: 3, y: 1.05}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 302951faffe230848aa0d3df7bb70faa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: a9f953c7353804247b8c3ed6e1c46a2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaContrast: 1
+    - _AlphaCutoff: 0.5
+    - _AlphaMult: 1.56
+    - _FRPow: 0.63
+    - _FRStrenth: 1.44
+    - _Float0: 1.56
+    - _Float1: 1
+    - _Float2: 1.44
+    - _Intensity: 2
+    - _MormalsStr: 0
+    m_Colors:
+    - _Color0: {r: 0.84313726, g: 0.34901962, b: 0, a: 0.36078432}
+    - _Color1: {r: 1.4980392, g: 0.91764706, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
